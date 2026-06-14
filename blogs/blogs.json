@@ -1,0 +1,60 @@
+{
+  "url": "https://blog.notional.finance/rss",
+  "fetched": "2026-06-14",
+  "posts": [
+    {
+      "title": "Notional Exponent is Live",
+      "url": "https://blog.notional.finance/notional-exponent-is-live/",
+      "date": "2026-01-29",
+      "description": "Launch announcement for the first Notional Exponent vault (mAPOLLO), featuring smart withdrawal technology that enables quick and at zero cost exits from leveraged positions with illiquid collateral."
+    },
+    {
+      "title": "Notional Exponent Launch Details",
+      "url": "https://blog.notional.finance/notional-exponent-launch-details/",
+      "date": "2026-01-07",
+      "description": "Details on Notional Exponent's January 26 launch date, initial vaults (mHYPER and mAPOLLO), 100,000 $NOTE incentive program, and security measures including audits by Sherlock and Mixbytes."
+    },
+    {
+      "title": "Balancer Hack Response",
+      "url": "https://blog.notional.finance/balancer-hack-response/",
+      "date": "2025-11-20",
+      "description": "Detailed explanation of the November 3 Balancer V2 hack impact on Notional V3, resulting in full wind-down of the protocol and comprehensive user fund distributions across Mainnet and Arbitrum."
+    },
+    {
+      "title": "Notional Exponent: Beta Launch",
+      "url": "https://blog.notional.finance/notional-exponent-beta-launch/",
+      "date": "2025-09-30",
+      "description": "Six-week beta program announcement for Notional Exponent, offering access to previous V2/V3 users with four vaults and 100,000 $NOTE rewards through a points campaign."
+    },
+    {
+      "title": "Smart Liquidations: Liquidating Illiquid Collateral",
+      "url": "https://blog.notional.finance/smart-liquidations-liquidating-illiquid-collateral/",
+      "date": "2025-08-20",
+      "description": "Technical deep-dive explaining how smart withdrawal enables flash loan liquidation of illiquid, redemption-delayed assets while addressing risks like redemption value haircuts and interest accrual."
+    },
+    {
+      "title": "Notional Exponent: How it Works",
+      "url": "https://blog.notional.finance/notional-exponent-how-it-works/",
+      "date": "2025-07-29",
+      "description": "Architecture overview covering lending routers, vaults, withdraw request managers, and account-specific pricing mechanisms that enable novel leveraged yield strategies."
+    },
+    {
+      "title": "Notional Exponent: Doubling Down on Leveraged Yield",
+      "url": "https://blog.notional.finance/notional-exponent-doubling-down-on-leveraged-yield/",
+      "date": "2025-07-02",
+      "description": "Strategic pivot explanation detailing why Notional abandoned fixed-rate lending focus to pursue leveraged yield protocols as its unique value proposition."
+    },
+    {
+      "title": "Introducing Notional Exponent",
+      "url": "https://blog.notional.finance/introducing-notional-exponent/",
+      "date": "2025-06-19",
+      "description": "Announcement of Notional Exponent as the world's first leveraged yield protocol, detailing core innovations including smart redemption and cross-protocol leverage optimization."
+    },
+    {
+      "title": "Streamlining Your Notional Portfolio",
+      "url": "https://blog.notional.finance/streamlining-your-notional-portfolio/",
+      "date": "2025-03-12",
+      "description": "User interface improvements merging portfolio tabs into unified overview, adding detailed leveraged vault breakdowns, and introducing dedicated risk assessment features."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Notional Finance",
+  "description": "Notional Finance is a fixed-rate, fixed-term DeFi lending and borrowing protocol built on Ethereum and Arbitrum. The protocol enables users to lend and borrow crypto assets at predetermined interest rates using fCash, a zero-coupon bond instrument that represents a fixed cash flow at maturity. Notional V3 introduced leveraged vaults and expanded yield strategies, making it DeFi's leading fixed-rate lending platform with tenors ranging from three months to twenty years.",
+  "url": "https://notional.finance/",
+  "logo": "https://notional.finance/favicon.ico",
+  "sameAs": [
+    "https://github.com/notional-finance",
+    "https://twitter.com/NotionalFinance",
+    "https://discord.com/invite/notional",
+    "https://blog.notional.finance/"
+  ],
+  "knowsAbout": [
+    "DeFi",
+    "Fixed-Rate Lending",
+    "Blockchain",
+    "Ethereum",
+    "Arbitrum",
+    "fCash",
+    "Liquidity Pools",
+    "Leveraged Vaults",
+    "Yield",
+    "Web3"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Notional Finance APIs and SDKs",
+    "itemListElement": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Notional V2 Subgraph API (Mainnet)",
+        "description": "GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet via The Graph protocol.",
+        "applicationCategory": "DeveloperApplication",
+        "url": "https://docs.notional.finance/developer-documentation/off-chain/subgraph-reference",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Notional V3 Subgraph API (Mainnet)",
+        "description": "GraphQL subgraph API for querying Notional V3 on-chain data on Ethereum Mainnet via The Graph Studio.",
+        "applicationCategory": "DeveloperApplication",
+        "url": "https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Notional V3 Subgraph API (Arbitrum)",
+        "description": "GraphQL subgraph API for querying Notional V3 on-chain data on Arbitrum One via The Graph Studio.",
+        "applicationCategory": "DeveloperApplication",
+        "url": "https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Notional Typescript SDK",
+        "description": "Client-side Typescript SDK for interacting with Notional Finance smart contracts.",
+        "applicationCategory": "DeveloperApplication",
+        "url": "https://github.com/notional-finance/sdk-v2",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+}
