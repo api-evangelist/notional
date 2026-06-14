@@ -1,0 +1,167 @@
+name: Notional Finance
+description: >
+  Notional Finance is a fixed-rate, fixed-term DeFi lending and borrowing protocol built on
+  Ethereum and Arbitrum. The protocol enables users to lend and borrow crypto assets at
+  predetermined interest rates using fCash, a zero-coupon bond instrument that represents
+  a fixed cash flow at maturity. Notional V3 introduced leveraged vaults and expanded
+  yield strategies, making it DeFi's leading fixed-rate lending platform with tenors
+  ranging from three months to twenty years.
+image: https://notional.finance/favicon.ico
+tags:
+  - DeFi
+  - Fixed-Rate Lending
+  - Blockchain
+  - Ethereum
+  - Arbitrum
+  - fCash
+  - Liquidity Pools
+  - Leveraged Vaults
+  - Yield
+  - Web3
+created: "2026-06-14"
+modified: "2026-06-14"
+url: https://raw.githubusercontent.com/api-evangelist/notional/refs/heads/main/apis.yml
+specificationVersion: "0.19"
+apis:
+  - name: Notional V2 Subgraph API (Mainnet)
+    description: >
+      GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet
+      via The Graph protocol. Provides access to accounts, trades, markets, nTokens,
+      cash groups, currencies, TVL history, exchange rates, and liquidation events.
+      Most numerical values use 8-decimal precision (10^8); interest rates use 9-decimal
+      precision (10^9). Pagination defaults to 100 results per page with a maximum of 1000.
+    image: https://notional.finance/favicon.ico
+    baseURL: https://api.thegraph.com/subgraphs/name/notional-finance/mainnet-v2
+    humanURL: https://docs.notional.finance/developer-documentation/off-chain/subgraph-reference
+    contact:
+      - FN: Notional Finance
+        url: https://notional.finance/
+    tags:
+      - GraphQL
+      - Subgraph
+      - Ethereum
+      - fCash
+      - Markets
+      - Accounts
+      - Liquidations
+    properties:
+      - type: Documentation
+        url: https://docs.notional.finance/developer-documentation/off-chain/subgraph-reference
+      - type: GraphQL
+        url: https://api.thegraph.com/subgraphs/name/notional-finance/mainnet-v2
+      - type: Explorer
+        url: https://thegraph.com/hosted-service/subgraph/notional-finance/mainnet-v2
+    apis.json: {}
+
+  - name: Notional V3 Subgraph API (Mainnet)
+    description: >
+      GraphQL subgraph API for querying Notional V3 on-chain data on Ethereum Mainnet
+      via The Graph Studio. Supports queries for accounts, leveraged vault positions,
+      fCash markets, interest rates, and yield analytics for the V3 protocol upgrade.
+      Publicly accessible with no authentication required.
+    image: https://notional.finance/favicon.ico
+    baseURL: https://api.studio.thegraph.com/query/60626/notional-v3-mainnet/v0.0.9
+    humanURL: https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs
+    contact:
+      - FN: Notional Finance
+        url: https://notional.finance/
+    tags:
+      - GraphQL
+      - Subgraph
+      - Ethereum
+      - V3
+      - Leveraged Vaults
+      - fCash
+      - Fixed-Rate
+    properties:
+      - type: Documentation
+        url: https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs
+      - type: GraphQL
+        url: https://api.studio.thegraph.com/query/60626/notional-v3-mainnet/v0.0.9
+      - type: Explorer
+        url: https://thegraph.com/explorer/subgraphs/2t4T7bts8ZQCpGcVq9VSzDyPVCQc5Y7TFwZKfmXKeSVx?view=Query&chain=arbitrum-one
+    apis.json: {}
+
+  - name: Notional V3 Subgraph API (Arbitrum)
+    description: >
+      GraphQL subgraph API for querying Notional V3 on-chain data on Arbitrum One
+      via The Graph Studio. Notional V3 launched primarily on Arbitrum and this endpoint
+      provides the most comprehensive V3 dataset including leveraged vault positions,
+      fixed-rate lending pools, fCash positions, nToken portfolio holdings, and
+      interest rate analytics. No authentication required.
+    image: https://notional.finance/favicon.ico
+    baseURL: https://api.studio.thegraph.com/query/60626/notional-v3-arbitrum/version/latest
+    humanURL: https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs
+    contact:
+      - FN: Notional Finance
+        url: https://notional.finance/
+    tags:
+      - GraphQL
+      - Subgraph
+      - Arbitrum
+      - V3
+      - Leveraged Vaults
+      - fCash
+      - Fixed-Rate
+      - Yield
+    properties:
+      - type: Documentation
+        url: https://docs.notional.finance/v3-technical-docs/subgraph-guides/notional-v3-subgraphs
+      - type: GraphQL
+        url: https://api.studio.thegraph.com/query/60626/notional-v3-arbitrum/version/latest
+      - type: Explorer
+        url: https://thegraph.com/explorer/subgraphs/4oVxkMtN4cFepbiYrSKz1u6HWnJym435k5DQRAFt2vHW?view=About&chain=arbitrum-one
+    apis.json: {}
+
+  - name: Notional Typescript SDK
+    description: >
+      Client-side Typescript SDK for interacting with Notional Finance smart contracts.
+      Provides helper methods for computing fixed-rate trade values including
+      getCashAmountGivenfCashAmount, getfCashAmountGivenCashAmount, and getSlippageRate.
+      Enables developers to build applications that integrate with Notional's fixed-rate
+      lending and borrowing markets without directly encoding ABI calls.
+    image: https://notional.finance/favicon.ico
+    baseURL: https://github.com/notional-finance/sdk-v2
+    humanURL: https://github.com/notional-finance/sdk-v2
+    contact:
+      - FN: Notional Finance
+        url: https://github.com/notional-finance
+    tags:
+      - SDK
+      - TypeScript
+      - Client Library
+      - fCash
+      - Fixed-Rate
+      - Ethereum
+    properties:
+      - type: Documentation
+        url: https://docs.notional.finance/developer-documentation/
+      - type: GitHubRepository
+        url: https://github.com/notional-finance/sdk-v2
+    apis.json: {}
+
+common:
+  - type: Website
+    url: https://notional.finance/
+  - type: Documentation
+    url: https://docs.notional.finance/developer-documentation/
+  - type: V3Documentation
+    url: https://docs.notional.finance/v3-technical-docs
+  - type: GitHub
+    url: https://github.com/notional-finance
+  - type: Blog
+    url: https://blog.notional.finance/
+  - type: Discord
+    url: https://discord.com/invite/notional
+  - type: Twitter
+    url: https://twitter.com/NotionalFinance
+  - type: SmartContracts
+    url: https://docs.notional.finance/developer-documentation/on-chain/notional-proxy
+  - type: ABIReference
+    url: https://docs.notional.finance/developer-documentation/on-chain/notional-abi-reference.md
+  - type: SubgraphReference
+    url: https://docs.notional.finance/developer-documentation/off-chain/subgraph-reference
+
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
