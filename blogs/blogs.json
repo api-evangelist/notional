@@ -1,6 +1,23 @@
 {
-  "url": "https://blog.notional.finance/rss",
-  "fetched": "2026-06-14T20:42:17Z",
+  "repo": "notional",
+  "feeds": [
+    {
+      "source": "https://blog.notional.finance/rss/",
+      "feed_url": "https://blog.notional.finance/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/notional-finance",
+      "feed_url": "https://github.com/notional-finance",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0,
   "posts": [
     {
       "title": "Notional Exponent is Live",
@@ -56,16 +73,5 @@
       "date": "2025-03-12",
       "description": "User interface improvements merging portfolio tabs into unified overview, adding detailed leveraged vault breakdowns, and introducing dedicated risk assessment features."
     }
-  ],
-  "repo": "notional",
-  "feeds": [
-    {
-      "source": "https://github.com/notional-finance",
-      "feed_url": "https://github.com/notional-finance",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    }
-  ],
-  "post_count": 0
+  ]
 }
