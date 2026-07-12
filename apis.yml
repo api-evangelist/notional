@@ -147,6 +147,8 @@ apis:
     url: https://github.com/notional-finance/sdk-v2
   apis.json: {}
 common:
+- type: DomainSecurity
+  url: security/notional-domain-security.yml
 - type: Website
   url: https://notional.finance/
 - type: Documentation

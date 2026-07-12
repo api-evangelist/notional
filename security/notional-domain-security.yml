@@ -1,0 +1,33 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: notional.finance
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  4 10:13:18 2026 GMT
+  hsts: false
+- host: docs.notional.finance
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  1 02:47:01 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: api.thegraph.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  6 05:49:39 2026 GMT
+  hsts: null
+domains:
+- domain: notional.finance
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: false
+- domain: thegraph.com
+  dnssec: true
+  caa:
+  - ;; connection timed out; no servers could be reached
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
