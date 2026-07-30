@@ -7,6 +7,17 @@ description: 'Notional Finance is a fixed-rate, fixed-term DeFi lending and borr
   lending platform with tenors ranging from three months to twenty years.
 
   '
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://notional.finance/favicon.ico
 tags:
 - DeFi
