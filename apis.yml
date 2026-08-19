@@ -33,7 +33,7 @@ tags:
 created: '2026-06-14'
 modified: '2026-06-14'
 url: https://raw.githubusercontent.com/api-evangelist/notional/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - name: Notional V2 Subgraph API (Mainnet)
   description: 'GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum
