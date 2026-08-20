@@ -56,6 +56,14 @@ apis:
   - Ethereum
   - fCash
   - Markets
+  - Account
+  - Liquidations
+  tags_raw:
+  - GraphQL
+  - Subgraph
+  - Ethereum
+  - fCash
+  - Markets
   - Accounts
   - Liquidations
   properties:
@@ -84,6 +92,14 @@ apis:
   - FN: Notional Finance
     url: https://notional.finance/
   tags:
+  - GraphQL
+  - Subgraph
+  - Ethereum
+  - V3
+  - Leveraged Vaults
+  - fCash
+  - Fixed Rate
+  tags_raw:
   - GraphQL
   - Subgraph
   - Ethereum
@@ -120,6 +136,15 @@ apis:
   - V3
   - Leveraged Vaults
   - fCash
+  - Fixed Rate
+  - Yield
+  tags_raw:
+  - GraphQL
+  - Subgraph
+  - Arbitrum
+  - V3
+  - Leveraged Vaults
+  - fCash
   - Fixed-Rate
   - Yield
   properties:
@@ -145,6 +170,13 @@ apis:
   - FN: Notional Finance
     url: https://github.com/notional-finance
   tags:
+  - SDK
+  - TypeScript
+  - Client Library
+  - fCash
+  - Fixed Rate
+  - Ethereum
+  tags_raw:
   - SDK
   - TypeScript
   - Client Library
