@@ -7,6 +7,18 @@ description: 'Notional Finance is a fixed-rate, fixed-term DeFi lending and borr
   lending platform with tenors ranging from three months to twenty years.
 
   '
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
