@@ -107,10 +107,10 @@ apis:
   - GraphQL
   - Subgraph
   - Ethereum
-  - V3
+  - v3
   - Leveraged Vaults
   - fCash
-  - Fixed-Rate
+  - Fixed Rate
   tags_raw:
   - GraphQL
   - Subgraph
@@ -145,10 +145,10 @@ apis:
   - GraphQL
   - Subgraph
   - Arbitrum
-  - V3
+  - v3
   - Leveraged Vaults
   - fCash
-  - Fixed-Rate
+  - Fixed Rate
   - Yield
   tags_raw:
   - GraphQL
@@ -186,7 +186,7 @@ apis:
   - TypeScript
   - Client Library
   - fCash
-  - Fixed-Rate
+  - Fixed Rate
   - Ethereum
   tags_raw:
   - SDK

@@ -6,7 +6,9 @@
       "feed_url": "https://blog.notional.finance/rss/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "feed",
+      "nature": "vendor-blog",
+      "nature_basis": "blog_subdomain"
     },
     {
       "source": "https://github.com/notional-finance",
@@ -73,5 +75,8 @@
       "date": "2025-03-12",
       "description": "User interface improvements merging portfolio tabs into unified overview, adding detailed leveraged vault breakdowns, and introducing dedicated risk assessment features."
     }
-  ]
+  ],
+  "feed_nature": "vendor-blog",
+  "feed_nature_basis": "blog_subdomain",
+  "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
 }
