@@ -64,57 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Notional Finance is a fixed-rate, fixed-term DeFi lending and borrowing protocol built
-on Ethereum and Arbitrum. The protocol enables users to lend and borrow crypto assets
-at predetermined interest rates using fCash, a zero-coupon bond instrument representing
-a fixed cash flow at maturity.
+Notional Finance is a fixed-rate, fixed-term DeFi lending and borrowing protocol built on Ethereum and Arbitrum. The protocol enables users to lend and borrow crypto assets at predetermined interest rates using fCash, a zero-coupon bond instrument that represents a fixed cash flow at maturity. Notional V3 introduced leveraged vaults and expanded yield strategies, making it DeFi's leading fixed-rate lending platform with tenors ranging from three months to twenty years.
 
-## Protocol Overview
+**Areas:** DeFi · Fixed-Rate Lending · Blockchain · Ethereum · Arbitrum · fCash · Liquidity Pools · Leveraged Vaults · Yield · Web3
 
-Notional achieves fixed interest rates through its specialized AMM (Automated Market
-Maker) that prices fCash tokens against underlying assets. Available tenors include
-three months, six months, one year, two years, five years, ten years, and twenty years.
+## Notional Finance on APIs.io
 
-Key protocol components:
-- **fCash**: Zero-coupon bond instrument enabling fixed-rate lending and borrowing
-- **nTokens**: Liquidity provider tokens that earn fees across all fCash markets
-- **Leveraged Vaults**: V3 feature enabling capital-efficient yield strategies
-- **NOTE Token**: Protocol governance token
+Everything profiled for Notional Finance is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/notional/](https://apis.io/providers/notional/)** — or go straight to one of the APIs or properties below.
 
-## Developer APIs
+### APIs (4)
 
-| API | Type | Network | Endpoint |
-|-----|------|---------|----------|
-| V2 Subgraph (Mainnet) | GraphQL | Ethereum | https://api.thegraph.com/subgraphs/name/notional-finance/mainnet-v2 |
-| V3 Subgraph (Mainnet) | GraphQL | Ethereum | https://api.studio.thegraph.com/query/60626/notional-v3-mainnet/v0.0.9 |
-| V3 Subgraph (Arbitrum) | GraphQL | Arbitrum | https://api.studio.thegraph.com/query/60626/notional-v3-arbitrum/version/latest |
+- [Notional V2 Subgraph API (Mainnet)](https://apis.io/apis/notional/notional-v2-subgraph-api-mainnet/) — GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet via The Graph protocol. Provides access to accounts, trades, markets,…
+- [Notional V3 Subgraph API (Mainnet)](https://apis.io/apis/notional/notional-v3-subgraph-api-mainnet/) — GraphQL subgraph API for querying Notional V3 on-chain data on Ethereum Mainnet via The Graph Studio. Supports queries for accounts, leveraged vault…
+- [Notional V3 Subgraph API (Arbitrum)](https://apis.io/apis/notional/notional-v3-subgraph-api-arbitrum/) — GraphQL subgraph API for querying Notional V3 on-chain data on Arbitrum One via The Graph Studio. Notional V3 launched primarily on Arbitrum and this…
+- [Notional Typescript SDK](https://apis.io/apis/notional/notional-typescript-sdk/) — Client-side Typescript SDK for interacting with Notional Finance smart contracts. Provides helper methods for computing fixed-rate trade values including…
 
-All subgraph APIs are publicly accessible without authentication.
+### Published properties
 
-## Smart Contract Addresses
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Ethereum Mainnet (V2)
-- Notional Proxy: `0x1344A36A1B56144C3Bc62E7757377D288fDE0369`
-- NOTE Token: `0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5`
-- Wrapped fCash Factory: `0x5D051DeB5db151C2172dCdCCD42e6A2953E27261`
+#### GraphQL (1)
 
-## Links
+GraphQL schemas.
 
-- Website: https://notional.finance/
-- Developer Docs: https://docs.notional.finance/developer-documentation/
-- V3 Technical Docs: https://docs.notional.finance/v3-technical-docs
-- GitHub: https://github.com/notional-finance
-- Blog: https://blog.notional.finance/
-- Discord: https://discord.com/invite/notional
-- Twitter: https://twitter.com/NotionalFinance
+- [Notional Finance GraphQL API](https://apis.io/graphqls/notional/notional-graphql/)
 
-## Repository Structure
+#### Security (1)
 
-```
-notional/
-├── apis.yml          # APIs.json 0.19 catalog
-├── README.md         # This file
-├── plans/            # Pricing and access tier information
-├── rate-limits/      # Rate limit documentation
-└── finops/           # Cost and financial operations guidance
-```
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Notional Domain Security](https://apis.io/security/notional/notional-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://notional.finance/)
+- [Documentation](https://docs.notional.finance/developer-documentation/)
+- [Blog](https://blog.notional.finance/)
+
+## API Evangelist rating
+
+**Kin Score 20.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 35.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/notional/](https://apis.io/providers/notional/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Notional Finance: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/notional/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
